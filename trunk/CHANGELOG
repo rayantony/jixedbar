@@ -1,0 +1,9 @@
+Version 0.0.2 (December 18, 2009)
+
+- Use img alt attribute as button text.
+- Fixed PNG transparency issue on IE6 browser.
+- Added "vista" theme.
+
+Version 0.0.1 (December 15, 2009)
+
+- Initial beta release.
