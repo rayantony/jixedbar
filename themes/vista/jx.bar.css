@@ -1,5 +1,5 @@
 /**
- * Default theme for jixedbar
+ * Vista theme for jixedbar
  * written by Ryan Yonzon, http://ryan.rawswift.com/
  */
 				
@@ -8,8 +8,8 @@
 	height:30px;
 	padding:0px;
 	width:80%;
-	background-color:#e5e5e5;
-	border:#b5b5b5 solid 1px;
+	background-color:#666666;
+	border:#666666 solid 1px;
 }
 
 	/* rounded top-left corner */
@@ -29,18 +29,18 @@
 	}
 
 /*----- bar separator -----*/
-.jx-bar span {
-	width:1px;
-	height:100%;
-	background-color:#CCCCCC;
-}
-
 	.jx-separator-left {
 		float:left;
+		width:1px;
+		height:100%;
+		background-color:#999999;
 	}
 	
 	.jx-separator-right {
 		float:right;
+		width:1px;
+		height:100%;
+		background-color:#999999;
 	}
 
 /*----- bar button -----*/
@@ -62,16 +62,18 @@
 .jx-bar-button li {
 	font-family:Verdana, Arial, Helvetica, sans-serif;
 	font-size:11px;
+	color:#CCCCCC;
 	cursor:pointer;
 	padding:4px 8px 4px 8px;
-	border:#e5e5e5 solid 1px;	
+	border:#666666 solid 1px;
 	margin:2px;
 }
 	
 	/*	button hover effect	*/
 	.jx-bar-button li:hover {
-		background-color:#EEEEEE;
-		border:#CCCCCC solid 1px;
+		color:#FFFFFF;
+		background-color:#999999;
+		border:#999999 solid 1px;
 		padding:4px 8px 4px 8px;
 		margin:2px;
 	}
@@ -88,14 +90,14 @@
 	.jx-bar-button li a:link, .jx-bar-button li a:visited {
 		font-family:Verdana, Arial, Helvetica, sans-serif;
 		font-size:11px;
-		color:#666666;
+		color:#CCCCCC;
 		text-decoration:none;
 	}
 
 	.jx-bar-button li a:hover {
 		font-family:Verdana, Arial, Helvetica, sans-serif;
 		font-size:11px;
-		color:#333333;
+		color:#FFFFFF;
 		text-decoration:none;
 	}
 
@@ -111,20 +113,20 @@
 .jx-bar-button div {
 	font-family:Verdana, Arial, Helvetica, sans-serif;
 	font-size:11px;
-	color:#666666;
+	color:#CCCCCC;
 	padding:4px 8px 4px 8px;
 	margin:4px 8px 4px 8px;	
-	border:#e5e5e5 solid 1px;
+	border:#999999 solid 0px;
 }
 
 	.jx-bar-button div a:link,  .jx-bar-button div a:visited {
-		color:#666666;
+		color:#CCCCCC;
 		text-decoration:none;
 	}
 
 	.jx-bar-button div a:hover {
-		color:#0099FF;
-		text-decoration:none;
+		color:#FFFFFF;
+		text-decoration:underline;
 	}
 
 /*----- button tooltip -----*/
