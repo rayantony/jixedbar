@@ -9,7 +9,7 @@
  * http://www.opensource.org/licenses/mit-license.php
  * http://www.gnu.org/licenses/gpl.html
  * 
- * Last update - July 18, 2010
+ * Last update - August 10, 2010
  */
 
 (function($) {
@@ -103,7 +103,7 @@
 			// initialize bar
 			$(this).css({
 				"overflow": constants["constOverflow"],
-				"position": pos,
+				"position": pos
 			});
 			
 			// set location: top or bottom
