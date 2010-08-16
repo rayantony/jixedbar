@@ -1,7 +1,7 @@
 /**
  * Default theme for jixedbar
  * written by Ryan Yonzon, http://ryan.rawswift.com/
- * Last update: July 15, 2010
+ * Last update: August 13, 2010
  */
 				
 /*----- bar style -----*/
@@ -156,7 +156,7 @@
 
 	/* rounded tooltip */
 	.jx-bar-button-tooltip {
-		-moz-border-radius:3px;
+		-moz-border-radius: 3px;
 		-webkit-border-radius:3px;
 	}
 
@@ -186,6 +186,7 @@
 .jx-nav-menu a:hover {
 	background-color:#4096EE;
 	color:#fff;
+	text-decoration:none;	
 }
 	
 /* styles for menu items */
@@ -221,14 +222,14 @@
 .jx-arrow-up {
 	background-image:url('up.gif');
 	background-repeat:no-repeat;
-	background-position: center;
+	background-position:center;
 }
 
 /* menu indicator DOWN state */
 .jx-arrow-down {
 	background-image:url('dn.gif');
 	background-repeat:no-repeat;
-	background-position: center;	
+	background-position:center;
 }
 
 /* tooltip point direction */

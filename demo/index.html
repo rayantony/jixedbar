@@ -20,14 +20,24 @@
 <body>
 
 <div id="header">
-    <div id="version">Version: 0.0.3</div>
+    <div id="version">Version: 0.0.4</div>
 </div>
 
 <div id="content">
 
 <h1><span style="color:#00CC33;">jixedbar</span> (Beta) - a jQuery fixed bar plugin. <span style="font-family:Arial, Helvetica, sans-serif; font-size:12px; text-decoration:none; font-weight:normal;">(<a href="http://code.google.com/p/jixedbar/">http://code.google.com/p/jixedbar/</a>)</span></h1>
 
-<span style="color:#999;">Last update: July 22, 2010</span>
+<span style="color:#999;">Last update: August 16, 2010</span>
+
+<div id="rel-note" style="margin-top:10px;background-color:#F1FFD6;border:#eee solid 1px;padding-left:30px;padding-right:30px;">
+	<h2>Release Notes</h2>
+	<ul>
+		<li>This release includes mostly Internet Explorer (IE) fixes. (IE6 and IE7 compatibility issues)</li>
+		<li>Compatibility tests using the top popular browsers in different OS. (see CHANGELOG for browser and OS list)</li>
+		<li>Also tested using IETester 0.4.4 (under Windows XP [SP2]) - Passed IE6 and IE7 tests.</li>
+		<li>Only the "default" theme are fully tested to work for in release. (See note on "rave" and "vista" theme)</li>
+	</ul>
+</div>
 
 <h2>Overview</h2>
 <p><strong>jixedbar</strong> is a jQuery plugin that lets you fix a horizontal bar at the bottom of your website or web application. This project was inspired by <a href="http://www.facebook.com/">Facebook</a>’s fixed application/menu bar.</p>
@@ -77,9 +87,9 @@
    &lt;ul&gt;        
       &lt;li title=&quot;Around The Web&quot;&gt;&lt;a href=&quot;#&quot;&gt;&lt;img src=&quot;img/web.png&quot; alt=&quot;Get Social&quot; /&gt;&lt;/a&gt;
          &lt;ul&gt;
-            &lt;li&gt;&lt;a href=&quot;http://www.facebook.com/account-name&quot;&gt;&lt;img src=&quot;img/facebook.png&quot; alt=&quot;&quot; /&gt;Facebook&lt;/a&gt;&lt;/li&gt;
-            &lt;li&gt;&lt;a href=&quot;http://twitter.com/account-name&quot;&gt;&lt;img src=&quot;img/twitter.png&quot; alt=&quot;&quot; /&gt;Twitter&lt;/a&gt;&lt;/li&gt;
-            &lt;li&gt;&lt;a href=&quot;http://www.flickr.com/photos/account-name/&quot;&gt;&lt;img src=&quot;img/flickr.png&quot; alt=&quot;&quot; /&gt;Flickr&lt;/a&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;a href=&quot;http://www.facebook.com/account-name&quot;&gt;&lt;img src=&quot;img/facebook.png&quot; title=&quot;Facebook&quot; /&gt;Facebook&lt;/a&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;a href=&quot;http://twitter.com/account-name&quot;&gt;&lt;img src=&quot;img/twitter.png&quot; title=&quot;Twitter&quot; /&gt;Twitter&lt;/a&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;a href=&quot;http://www.flickr.com/photos/account-name/&quot;&gt;&lt;img src=&quot;img/flickr.png&quot; title=&quot;Flickr&quot; /&gt;Flickr&lt;/a&gt;&lt;/li&gt;
          &lt;/ul&gt;
       &lt;/li&gt;
    &lt;/ul&gt;
@@ -91,8 +101,8 @@
    &lt;ul class=&quot;jx-bar-button-right&quot;&gt;
       &lt;li title=&quot;Feeds&quot;&gt;&lt;a href=&quot;#&quot;&gt;&lt;img src=&quot;img/feed.png&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;
          &lt;ul&gt;
-            &lt;li&gt;&lt;a href=&quot;http://your.domain.tld/feed/&quot;&gt;&lt;img src=&quot;img/feed.png&quot; alt=&quot;&quot; /&gt;Content Feed&lt;/a&gt;&lt;/li&gt;
-            &lt;li&gt;&lt;a href=&quot;http://your.domain.tld/comments/&quot;&gt;&lt;img src=&quot;img/comment.png&quot; alt=&quot;&quot; /&gt;Comment Feed&lt;/a&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;a href=&quot;http://your.domain.tld/feed/&quot;&gt;&lt;img src=&quot;img/feed.png&quot; title=&quot;Content Feeds&quot; /&gt;Content Feed&lt;/a&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;a href=&quot;http://your.domain.tld/comments/&quot;&gt;&lt;img src=&quot;img/comment.png&quot; title=&quot;Comment Feeds&quot; /&gt;Comment Feed&lt;/a&gt;&lt;/li&gt;
          &lt;/ul&gt;
       &lt;/li&gt;
    &lt;/ul&gt;
@@ -328,10 +338,10 @@ $("#sample-bar").jixedbar({
 		<ul>        
             <li title="Around The Web"><a href="#"><img src="icons/network.png" alt="Get Social" /></a>
                 <ul>
-                    <li><a href="http://www.facebook.com/ryanyonzon"><img src="icons/facebook.png" alt="" />&nbsp;&nbsp;&nbsp;Facebook</a></li>
-                    <li><a href="https://twitter.com/rawswift"><img src="icons/twitter.png" alt="" />&nbsp;&nbsp;&nbsp;Twitter</a></li>
-                    <li><a href="http://www.flickr.com/photos/ryanyonzon/"><img src="icons/pictures.png" alt="" />&nbsp;&nbsp;&nbsp;Flickr</a></li>
-                    <li><a href="http://ph.linkedin.com/in/ryanyonzon"><img src="icons/card.png" alt="" />&nbsp;&nbsp;&nbsp;Linkedin</a></li>
+                    <li><a href="http://www.facebook.com/ryanyonzon"><img src="icons/facebook.png" title="Facebook" />&nbsp;&nbsp;&nbsp;Facebook</a></li>
+                    <li><a href="https://twitter.com/rawswift"><img src="icons/twitter.png" title="Twitter" />&nbsp;&nbsp;&nbsp;Twitter</a></li>
+                    <li><a href="http://www.flickr.com/photos/ryanyonzon/"><img src="icons/pictures.png" title="Flickr" />&nbsp;&nbsp;&nbsp;Flickr</a></li>
+                    <li><a href="http://ph.linkedin.com/in/ryanyonzon"><img src="icons/card.png" title="Linkedin" />&nbsp;&nbsp;&nbsp;Linkedin</a></li>
                 </ul>
             </li>
         </ul>
@@ -346,8 +356,8 @@ $("#sample-bar").jixedbar({
         <ul class="jx-bar-button-right">
 			<li title="Feeds"><a href="#"><img src="icons/feed.png" alt="" /></a>
                 <ul>
-        		    <li><a href="http://ryan.rawswift.com/feed/"><img src="icons/feed-doc.png" alt="" />&nbsp;&nbsp;&nbsp;Content Feed</a></li>
-		            <li><a href="http://ryan.rawswift.com/comments/feed/"><img src="icons/ballon.png" alt="" />&nbsp;&nbsp;&nbsp;Comment Feed</a></li>
+        		    <li><a href="http://ryan.rawswift.com/feed/"><img src="icons/feed-doc.png" title="Content Feed" />&nbsp;&nbsp;&nbsp;Content Feed</a></li>
+		            <li><a href="http://ryan.rawswift.com/comments/feed/"><img src="icons/ballon.png" title="Comment Feed" />&nbsp;&nbsp;&nbsp;Comment Feed</a></li>
                 </ul>
 			</li>
         </ul>
