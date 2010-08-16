@@ -1,3 +1,21 @@
+Version 0.0.4 (August 16, 2010)
+
+- Additional source comments - August 16, 2010
+- Tested on top popular browsers and different OS - August 15, 2010
+    - Firefox - 3.6.8 (Ubuntu 10.04, Windows 7, Windows XP [SP2] and Windows XP [SP3])
+    - Chrome - 5.0.375.126 (Ubuntu 10.04, Windows 7, Windows XP [SP2] and Windows XP [SP3])
+    - Internet Explorer 8 - 8.0.x.x (Windows 7)
+    - Internet Explorer 7 - 7.0.x.x (Windows XP [SP3])
+    - Internet Explorer 6 - 6.0.x.x (Windows XP [SP2])
+    - Safari 4.0 - 4.0 (530.17) (Windows XP [SP2])
+    - Safari 5.0.1 - 5.0.1 (7533.17.8) (Windows XP [SP3])
+    - Opera 9.x - 9.01 (8552) (Windows XP [SP2])
+    - Opera 10.x - 10.61 (3484) (Windows XP [SP3])
+- Browser compatibility test using IETester 0.4.4 (under Windows XP [SP2]) - Passed IE6 and IE7 tests. - August 15, 2010
+- IE7 and some Chrome bug fix - August 15, 2010
+- Modified "default" theme - August 13, 2010  
+- IE6 bug fix - August 13, 2010
+
 Version 0.0.3 (July 17, 2010)
 
 - Added "Rave" theme - July 16, 2010
